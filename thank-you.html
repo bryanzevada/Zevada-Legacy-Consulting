@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="description" content="Consultation booking confirmation for Zevada Legacy Consulting." />
+  <title>Consultation Confirmed | Zevada Legacy Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" href="assets/brand-monogram.png" type="image/png" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    :root {
+      --thank-you-deep: #06120f;
+      --thank-you-panel: #0b211b;
+      --thank-you-accent: #7df2a8;
+      --thank-you-text: #fbfdfb;
+      --thank-you-secondary: #c9d9d1;
+    }
+
+    body.thank-you-page {
+      min-height: 100vh;
+      background: var(--thank-you-deep);
+      color: var(--thank-you-text);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .thank-you-page .site-header {
+      background: var(--thank-you-deep);
+      border-bottom-color: rgba(201, 217, 209, .16);
+    }
+
+    .thank-you-page .brand-wordmark {
+      max-width: 210px;
+      height: auto;
+    }
+
+    .thank-you-page .nav-link {
+      color: var(--thank-you-secondary);
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .thank-you-page .nav-link:hover,
+    .thank-you-page .nav-link:focus-visible {
+      color: var(--thank-you-accent);
+    }
+
+    .thank-you-main {
+      flex: 1;
+      display: grid;
+      place-items: center;
+      padding: 76px 0 92px;
+    }
+
+    .thank-you-card {
+      width: min(100%, 720px);
+      padding: clamp(34px, 7vw, 76px);
+      background: var(--thank-you-panel);
+      border: 1px solid rgba(125, 242, 168, .24);
+      text-align: center;
+      box-shadow: 0 28px 80px rgba(0, 0, 0, .22);
+    }
+
+    .success-mark {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 28px;
+      display: grid;
+      place-items: center;
+      border: 2px solid var(--thank-you-accent);
+      border-radius: 50%;
+      color: var(--thank-you-accent);
+      font: 600 42px/1 var(--display);
+    }
+
+    .thank-you-card .eyebrow {
+      justify-content: center;
+      color: var(--thank-you-accent);
+      margin-bottom: 20px;
+    }
+
+    .thank-you-card .eyebrow span {
+      background: var(--thank-you-accent);
+    }
+
+    .thank-you-card h1 {
+      max-width: none;
+      color: var(--thank-you-text);
+      font-size: clamp(48px, 8vw, 82px);
+      margin-bottom: 24px;
+    }
+
+    .thank-you-card .confirmation-copy {
+      max-width: 560px;
+      margin: 0 auto;
+      color: var(--thank-you-secondary);
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .thank-you-card .next-step {
+      max-width: 470px;
+      margin: 24px auto 34px;
+      padding-top: 22px;
+      border-top: 1px solid rgba(201, 217, 209, .18);
+      color: var(--thank-you-text);
+      font-size: 14px;
+    }
+
+    .thank-you-actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 22px;
+    }
+
+    .thank-you-actions .button {
+      background: var(--thank-you-accent);
+      color: var(--thank-you-deep);
+    }
+
+    .thank-you-actions .button:hover,
+    .thank-you-actions .button:focus-visible {
+      background: #a0f7bd;
+    }
+
+    .thank-you-actions .secondary-link {
+      color: var(--thank-you-secondary);
+      font-size: 13px;
+      font-weight: 700;
+      border-bottom: 1px solid currentColor;
+      padding-bottom: 4px;
+    }
+
+    .thank-you-actions .secondary-link:hover,
+    .thank-you-actions .secondary-link:focus-visible {
+      color: var(--thank-you-accent);
+    }
+
+    .thank-you-page a:focus-visible,
+    .thank-you-page button:focus-visible {
+      outline: 3px solid var(--thank-you-accent);
+      outline-offset: 4px;
+    }
+
+    .thank-you-footer {
+      padding: 24px 0;
+      border-top: 1px solid rgba(201, 217, 209, .16);
+      color: rgba(201, 217, 209, .72);
+      font-size: 11px;
+      text-align: center;
+    }
+
+    @media (max-width: 520px) {
+      .thank-you-page .nav-link {
+        display: none;
+      }
+
+      .thank-you-main {
+        padding: 40px 0 58px;
+      }
+
+      .thank-you-card {
+        padding: 38px 24px;
+      }
+
+      .thank-you-card .confirmation-copy {
+        font-size: 16px;
+      }
+
+      .thank-you-actions {
+        align-items: stretch;
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body class="thank-you-page">
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/" aria-label="Zevada Legacy Consulting home">
+        <img class="brand-wordmark" src="assets/brand-wordmark.png" alt="Zevada Legacy Consulting" />
+      </a>
+      <a class="nav-link" href="/">Return to website</a>
+    </div>
+  </header>
+
+  <main class="thank-you-main">
+    <section class="thank-you-card" aria-labelledby="confirmation-heading">
+      <div class="success-mark" aria-hidden="true">✓</div>
+      <p class="eyebrow"><span></span> Consultation booking</p>
+      <h1 id="confirmation-heading">Your consultation is confirmed.</h1>
+      <p class="confirmation-copy">Thank you for scheduling with Zevada Legacy Consulting. We look forward to learning more about your project and how we may support your team.</p>
+      <p class="next-step">Please keep the confirmation details provided after booking.</p>
+      <div class="thank-you-actions">
+        <a class="button button-accent" href="/">Return to Zevada Legacy Consulting <span aria-hidden="true">↗</span></a>
+        <a class="secondary-link" href="/#services">Explore services</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="thank-you-footer">
+    <div class="container">Zevada Legacy Consulting</div>
+  </footer>
+</body>
+</html>
