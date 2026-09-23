@@ -7,7 +7,7 @@ window.ZEVADA_CONFIG = {
     slug: 'introductory-consultation',
     apiUrl: 'https://app.nuerovas.com',
     scriptUrl: 'https://app.nuerovas.com/booking-widget/booking.js?v=3a950eeeffde80b1',
-    accent: '#7DF2A8',
-    buttonText: 'Schedule a Consultation',
+    accent: '#22c55e',
+    buttonText: 'Book Now',
   },
 };
